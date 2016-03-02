@@ -1,6 +1,6 @@
 var solver = require("../../node_modules/javascript-lp-solver/src/solver"),
 
-prefs = [[0, 0, 1], [1, 1, 0], [0, 0, 1], [0, 1, 1]],
+prefs = [[0, 0, 1], [1, 1, 0], [0, 0, 1], [0, 1, 1]];
 
 // prefs[i][j] = true if person i meets conditions j
 // computes a matching of peoples to meet as many conditions j as possible
